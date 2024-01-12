@@ -51,3 +51,9 @@ h1 {
     text-align: center; /* Centering the text */
     margin: 0.5em 0; /* Adjust spacing as needed */
 }
+body {
+    background-image: url('logo.png');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
