@@ -1,68 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-<style>
-body {font-family: "Raleway", Arial, sans-serif}
-.w3-row img {margin-bottom: -8px}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parallax Scrolling Effect</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="container">
+                <h3 class="logo">Brand<span>Name</span></h3>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
+        <h1 class="big-title translate" data-speed="0.1">Discover.</h1>
 
-  <!-- Header -->
-  <header class="w3-container w3-xlarge w3-padding-24">
-    <a href="#" class="w3-left w3-button w3-white">MY ART</a>
-    <a href="#about" class="w3-right w3-button w3-white">About</a>
-  </header>
+        <img src="img/person.png" class="person translate" data-speed="-0.25" alt="">
+        <img src="img/mountain1.png" class="mountain1 translate" data-speed="-0.2" alt="">
+        <img src="img/mountain2.png" class="mountain2 translate" data-speed="0.4" alt="">
+        <img src="img/mountain3.png" class="mountain3 translate" data-speed="0.3" alt="">
+        <img src="img/sky.png" class="sky translate" data-speed="0.5" alt="">
+    </header>
 
-  <!-- Photo Grid -->
-  <div class="w3-row">
-    <div class="w3-half">
-      <img src="/w3images/streetart.jpg" style="width:100%">
-      <img src="/w3images/streetart2.jpg" style="width:100%">
-      <img src="/w3images/streetart5.jpg" style="width:100%">
-    </div>
+    <section>
+        <div class="shadow"></div>
 
-    <div class="w3-half">
-      <img src="/w3images/streetart3.jpg" style="width:100%">
-      <img src="/w3images/streetart4.jpg" style="width:100%">
-    </div>
-  </div>
-  
-<!-- End Page Content -->
-</div>
+        <div class="container">
+            <div class="content opacity">
+                <h3 class="title">
+                    About
+                    <div class="border"></div>
+                </h3>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis quos expedita ipsa, a quidem inventore voluptates debitis accusamus tenetur qui et voluptas dicta, culpa earum, doloribus odio consectetur consequuntur soluta quasi nobis! Deserunt voluptatum reiciendis iure expedita sequi quisquam laboriosam temporibus exercitationem.</p>
+            </div>
 
-<!-- Footer / About Section -->
-<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
-  <h2>About</h2>
-  <img src="/w3images/boy.jpg" class="w3-image w3-padding-32" width="300" height="300">
-  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
-    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    <p class="w3-large w3-text-pink">Do not hesitate to contact me!</p>
-    <div class="w3-section">
-      <label><b>Name</b></label>
-      <input class="w3-input w3-border" type="text" required name="Name">
-    </div>
-    <div class="w3-section">
-      <label><b>Email</b></label>
-      <input class="w3-input w3-border" type="text" required name="Email">
-    </div>
-    <div class="w3-section">
-      <label><b>Message</b></label>
-      <input class="w3-input w3-border" required name="Message">
-    </div>
-    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
-  </form>
-  <br>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
- 
+            <div class="imgContainer opacity">
+                <img src="img/image.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
 </body>
 </html>
