@@ -4,7 +4,12 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
+h1 {
+    font-size: 3em; /* Large size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Centering the text */
+    margin: 0.5em 0; /* Adjust spacing as needed */
+}
 header {
     background-color: #333;
     color: white;
