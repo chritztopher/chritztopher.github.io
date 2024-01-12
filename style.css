@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding-top: 200;
     box-sizing: border-box;
     background-image: url("logos.png");
     background-size: cover; /* Cover the entire viewport */
