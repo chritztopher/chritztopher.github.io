@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('https://github.com/chritztopher/chritztopher.github.io/blob/main/logo.png?raw=true');
+    background-image: url("logos.png");
     background-size: cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
